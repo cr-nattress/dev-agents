@@ -1,0 +1,142 @@
+2025-04-17 20:41:45,953 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\application-sandbox\sandbox-b3bc0528
+2025-04-17 20:41:45,954 - core.agent - INFO - Setting up sandbox for https://github.com/example/repo.git at C:\Users\NUC01\application-sandbox\sandbox-b3bc0528
+2025-04-17 20:41:46,784 - tools.git_ops - ERROR - Git command failed: Cloning into '.'...
+remote: Repository not found.
+fatal: repository 'https://github.com/example/repo.git/' not found
+
+2025-04-17 20:41:46,785 - core.agent - ERROR - Failed to set up sandbox: Git command failed: Cloning into '.'...
+remote: Repository not found.
+fatal: repository 'https://github.com/example/repo.git/' not found
+
+2025-04-17 20:41:46,785 - core.agent - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-b3bc0528
+2025-04-17 20:41:46,785 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-b3bc0528
+2025-04-17 20:41:46,787 - root - ERROR - Exception in Example 1
+Traceback (most recent call last):
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\example.py", line 42, in main
+    sandbox_path = agent.setup_sandbox(repo_url, branch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\core\agent.py", line 58, in setup_sandbox
+    git_ops.clone_repo(repo_url, self.sandbox_path, branch)
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\tools\git_ops.py", line 45, in clone_repo
+    return run_git_command(clone_args, cwd=target_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\tools\git_ops.py", line 27, in run_git_command
+    raise RuntimeError(error_msg)
+RuntimeError: Git command failed: Cloning into '.'...
+remote: Repository not found.
+fatal: repository 'https://github.com/example/repo.git/' not found
+
+2025-04-17 20:41:46,791 - core.agent - INFO - Using custom working directory for sandbox: C:\Users\NUC01\dev-agents\git-sandbox-agent\custom-sandbox
+2025-04-17 20:41:46,857 - tools.git_ops - ERROR - Git command failed: fatal: destination path '.' already exists and is not an empty directory.
+
+2025-04-17 20:41:46,858 - core.agent - ERROR - Failed to set up sandbox: Git command failed: fatal: destination path '.' already exists and is not an empty directory.
+
+2025-04-17 20:41:46,858 - core.agent - INFO - Skipping cleanup of custom working directory: C:\Users\NUC01\dev-agents\git-sandbox-agent\custom-sandbox
+2025-04-17 20:41:46,858 - root - ERROR - Exception in Example 2
+Traceback (most recent call last):
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\example.py", line 99, in main
+    sandbox_path = agent.setup_sandbox(repo_url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\core\agent.py", line 58, in setup_sandbox
+    git_ops.clone_repo(repo_url, self.sandbox_path, branch)
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\tools\git_ops.py", line 45, in clone_repo
+    return run_git_command(clone_args, cwd=target_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\tools\git_ops.py", line 27, in run_git_command
+    raise RuntimeError(error_msg)
+RuntimeError: Git command failed: fatal: destination path '.' already exists and is not an empty directory.
+
+2025-04-17 20:42:01,747 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\application-sandbox\sandbox-4f1a8671
+2025-04-17 20:42:01,748 - core.agent - INFO - Setting up sandbox for https://github.com/example/repo.git at C:\Users\NUC01\application-sandbox\sandbox-4f1a8671
+2025-04-17 20:42:02,540 - tools.git_ops - ERROR - Git command failed: Cloning into '.'...
+remote: Repository not found.
+fatal: repository 'https://github.com/example/repo.git/' not found
+
+2025-04-17 20:42:02,540 - core.agent - ERROR - Failed to set up sandbox: Git command failed: Cloning into '.'...
+remote: Repository not found.
+fatal: repository 'https://github.com/example/repo.git/' not found
+
+2025-04-17 20:42:02,541 - core.agent - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-4f1a8671
+2025-04-17 20:42:02,541 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-4f1a8671
+2025-04-17 20:42:02,542 - root - ERROR - Exception in Example 1
+Traceback (most recent call last):
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\example.py", line 42, in main
+    sandbox_path = agent.setup_sandbox(repo_url, branch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\core\agent.py", line 58, in setup_sandbox
+    git_ops.clone_repo(repo_url, self.sandbox_path, branch)
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\tools\git_ops.py", line 45, in clone_repo
+    return run_git_command(clone_args, cwd=target_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\tools\git_ops.py", line 27, in run_git_command
+    raise RuntimeError(error_msg)
+RuntimeError: Git command failed: Cloning into '.'...
+remote: Repository not found.
+fatal: repository 'https://github.com/example/repo.git/' not found
+
+2025-04-17 20:42:02,551 - root - ERROR - Outer Exception in Example 2
+Traceback (most recent call last):
+  File "C:\Users\NUC01\dev-agents\git-sandbox-agent\example.py", line 95, in main
+    shutil.rmtree(custom_dir)
+  File "C:\Python312\Lib\shutil.py", line 820, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 643, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onexc)
+  File "C:\Python312\Lib\shutil.py", line 643, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onexc)
+  File "C:\Python312\Lib\shutil.py", line 643, in _rmtree_unsafe
+    _rmtree_unsafe(fullname, onexc)
+  File "C:\Python312\Lib\shutil.py", line 648, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Python312\Lib\shutil.py", line 646, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\NUC01\\dev-agents\\git-sandbox-agent\\custom-sandbox\\.git\\objects\\pack\\pack-87a968258516a6d31790111373b9d5897f4831aa.idx'
+2025-04-17 20:42:22,735 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\application-sandbox\sandbox-a4b7795e
+2025-04-17 20:42:22,735 - core.agent - INFO - Setting up sandbox for https://github.com/cr-nattress/ai-devops-lab.git at C:\Users\NUC01\application-sandbox\sandbox-a4b7795e
+2025-04-17 20:42:23,419 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to sandbox
+2025-04-17 20:42:23,421 - tools.validation - INFO - Running tests with command: pytest -xvs
+2025-04-17 20:42:23,422 - core.agent - ERROR - Error running tests: [WinError 2] The system cannot find the file specified
+2025-04-17 20:42:23,423 - tools.validation - INFO - Running linter with command: flake8
+2025-04-17 20:42:23,424 - core.agent - ERROR - Error running linter: [WinError 2] The system cannot find the file specified
+2025-04-17 20:42:23,426 - core.agent - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-a4b7795e
+2025-04-17 20:42:23,426 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-a4b7795e
+2025-04-17 20:42:23,738 - core.agent - INFO - Using custom working directory for sandbox: C:\Users\NUC01\dev-agents\git-sandbox-agent\custom-sandbox
+2025-04-17 20:42:24,450 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to sandbox
+2025-04-17 20:42:24,451 - tools.validation - INFO - Running tests with command: python -m unittest discover
+2025-04-17 20:42:24,526 - core.agent - INFO - Test results: False
+2025-04-17 20:42:24,527 - tools.validation - INFO - Running linter with command: flake8 .
+2025-04-17 20:42:24,528 - core.agent - ERROR - Error running linter: [WinError 2] The system cannot find the file specified
+2025-04-17 20:42:24,532 - core.agent - INFO - Skipping cleanup of custom working directory: C:\Users\NUC01\dev-agents\git-sandbox-agent\custom-sandbox
+2025-04-17 20:48:19,654 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\application-sandbox\sandbox-4d71a02d
+2025-04-17 20:48:19,654 - core.agent - INFO - Setting up sandbox for https://github.com/cr-nattress/ai-devops-lab.git at C:\Users\NUC01\application-sandbox\sandbox-4d71a02d
+2025-04-17 20:48:20,408 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to sandbox
+2025-04-17 20:48:20,408 - tools.validation - INFO - Running tests with command: pytest -xvs
+2025-04-17 20:48:20,410 - core.agent - ERROR - Error running tests: [WinError 2] The system cannot find the file specified
+2025-04-17 20:48:20,411 - tools.validation - INFO - Running linter with command: flake8
+2025-04-17 20:48:20,412 - core.agent - ERROR - Error running linter: [WinError 2] The system cannot find the file specified
+2025-04-17 20:48:20,415 - core.agent - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-4d71a02d
+2025-04-17 20:48:20,415 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-4d71a02d
+2025-04-17 20:48:20,422 - core.agent - INFO - Using custom working directory for sandbox: C:\Users\NUC01\dev-agents\git-sandbox-agent\test-sandbox
+2025-04-17 20:48:21,146 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to sandbox
+2025-04-17 20:48:21,147 - tools.validation - INFO - Running tests with command: python -m unittest discover
+2025-04-17 20:48:21,223 - core.agent - INFO - Test results: False
+2025-04-17 20:48:21,224 - tools.validation - INFO - Running linter with command: flake8 .
+2025-04-17 20:48:21,226 - core.agent - ERROR - Error running linter: [WinError 2] The system cannot find the file specified
+2025-04-17 20:48:21,231 - core.agent - INFO - Skipping cleanup of custom working directory: C:\Users\NUC01\dev-agents\git-sandbox-agent\test-sandbox
+2025-04-17 20:48:55,665 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\application-sandbox\sandbox-b46a3a29
+2025-04-17 20:48:55,666 - core.agent - INFO - Setting up sandbox for https://github.com/cr-nattress/ai-devops-lab.git at C:\Users\NUC01\application-sandbox\sandbox-b46a3a29
+2025-04-17 20:48:56,399 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to sandbox
+2025-04-17 20:48:56,399 - tools.validation - INFO - Running tests with command: pytest -xvs
+2025-04-17 20:48:56,401 - core.agent - ERROR - Error running tests: [WinError 2] The system cannot find the file specified
+2025-04-17 20:48:56,401 - tools.validation - INFO - Running linter with command: flake8
+2025-04-17 20:48:56,402 - core.agent - ERROR - Error running linter: [WinError 2] The system cannot find the file specified
+2025-04-17 20:48:56,404 - core.agent - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-b46a3a29
+2025-04-17 20:48:56,404 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\application-sandbox\sandbox-b46a3a29
+2025-04-17 20:48:56,718 - core.agent - INFO - Using custom working directory for sandbox: C:\Users\NUC01\dev-agents\git-sandbox-agent\test-sandbox
+2025-04-17 20:48:57,456 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to sandbox
+2025-04-17 20:48:57,458 - tools.validation - INFO - Running tests with command: python -m unittest discover
+2025-04-17 20:48:57,537 - core.agent - INFO - Test results: False
+2025-04-17 20:48:57,539 - tools.validation - INFO - Running linter with command: flake8 .
+2025-04-17 20:48:57,541 - core.agent - ERROR - Error running linter: [WinError 2] The system cannot find the file specified
+2025-04-17 20:48:57,545 - core.agent - INFO - Skipping cleanup of custom working directory: C:\Users\NUC01\dev-agents\git-sandbox-agent\test-sandbox

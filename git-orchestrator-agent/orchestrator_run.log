@@ -1,0 +1,40 @@
+2025-04-17 22:00:39,446 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-orchestrator-agent\git-clone-agent\core\agent.py
+2025-04-17 22:00:39,446 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-orchestrator-agent\git-branch-agent\core\agent.py
+2025-04-17 22:00:39,447 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-orchestrator-agent\git-commit-agent\core\agent.py
+2025-04-17 22:00:39,447 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-orchestrator-agent\git-pr-agent\core\agent.py
+2025-04-17 22:00:39,447 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-orchestrator-agent\git-sandbox-agent\core\agent.py
+2025-04-17 22:00:39,447 - core.agent - INFO - Step 1: Creating sandbox environment
+2025-04-17 22:00:39,447 - core.agent - ERROR - GitSandboxAgent not available
+2025-04-17 22:01:42,533 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:01:42,533 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:01:42,534 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:01:42,534 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:01:42,538 - core.agent - WARNING - Failed to load agent git_clone_agent: cannot import name 'git_ops' from 'tools' (C:\Users\NUC01\dev-agents\git-orchestrator-agent\tools\__init__.py)
+2025-04-17 22:01:42,538 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-branch-agent\core\agent.py
+2025-04-17 22:01:42,538 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-commit-agent\core\agent.py
+2025-04-17 22:01:42,538 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-pr-agent\core\agent.py
+2025-04-17 22:01:42,538 - core.agent - WARNING - Failed to load agent git_sandbox_agent: cannot import name 'sandbox_manager' from 'tools' (C:\Users\NUC01\dev-agents\git-orchestrator-agent\tools\__init__.py)
+2025-04-17 22:01:42,539 - core.agent - INFO - Step 1: Creating sandbox environment
+2025-04-17 22:01:42,539 - core.agent - ERROR - GitSandboxAgent not available
+2025-04-17 22:02:04,371 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:02:04,373 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:02:04,373 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:02:04,374 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:02:04,374 - core.agent - INFO - Added C:\Users\NUC01\dev-agents\git-clone-agent to Python path
+2025-04-17 22:02:04,386 - core.agent - INFO - Loaded agent: git_clone_agent
+2025-04-17 22:02:04,387 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-branch-agent\core\agent.py
+2025-04-17 22:02:04,387 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-commit-agent\core\agent.py
+2025-04-17 22:02:04,388 - core.agent - WARNING - Agent module not found: C:\Users\NUC01\dev-agents\git-pr-agent\core\agent.py
+2025-04-17 22:02:04,388 - core.agent - INFO - Added C:\Users\NUC01\dev-agents\git-sandbox-agent to Python path
+2025-04-17 22:02:04,389 - core.agent - WARNING - Error loading module git_sandbox_agent: cannot import name 'validation' from 'tools' (C:\Users\NUC01\dev-agents\git-clone-agent\tools\__init__.py)
+2025-04-17 22:02:04,389 - core.agent - INFO - Removed C:\Users\NUC01\dev-agents\git-sandbox-agent from Python path due to error
+2025-04-17 22:02:04,389 - core.agent - INFO - Step 1: Creating sandbox environment
+2025-04-17 22:02:04,389 - core.agent - ERROR - GitSandboxAgent not available
+2025-04-17 22:02:47,277 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:02:47,278 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:02:47,278 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:02:47,280 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:03:41,791 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:03:41,792 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:03:41,792 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:03:41,792 - context.config_loader - INFO - Agent-specific .env file loaded successfully

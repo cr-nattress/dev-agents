@@ -1,0 +1,9 @@
+2025-04-17 22:29:43,324 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:29:43,324 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:29:43,325 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:29:43,325 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:29:44,207 - __main__ - INFO - Running git command: git checkout -b feature/orchestrator-workflow-1f022446 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222943_1f022446
+2025-04-17 22:29:44,274 - __main__ - INFO - Running git command: git add . in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222943_1f022446
+2025-04-17 22:29:44,341 - __main__ - INFO - Running git command: git commit -m Add test file via orchestrator workflow 1f022446 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222943_1f022446
+2025-04-17 22:29:44,475 - __main__ - INFO - Running git command: git rev-parse HEAD in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222943_1f022446
+2025-04-17 22:29:44,544 - __main__ - INFO - Running git command: git push origin feature/orchestrator-workflow-1f022446 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222943_1f022446
