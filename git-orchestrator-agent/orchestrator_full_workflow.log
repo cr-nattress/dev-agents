@@ -1,0 +1,36 @@
+2025-04-17 22:25:59,982 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:25:59,983 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:25:59,984 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:25:59,984 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:25:59,991 - tools.sandbox_manager - INFO - Cleaning up existing application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:25:59,992 - tools.sandbox_manager - INFO - Cleaned up application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:25:59,993 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-aa718f1a
+2025-04-17 22:25:59,993 - core.agent - INFO - Setting up sandbox for None at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-aa718f1a
+2025-04-17 22:25:59,993 - core.agent - ERROR - Failed to set up sandbox: sequence item 1: expected str instance, NoneType found
+2025-04-17 22:25:59,994 - core.agent - INFO - Cleaning up sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-aa718f1a
+2025-04-17 22:25:59,994 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-aa718f1a
+2025-04-17 22:26:23,905 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:26:23,905 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:26:23,906 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:26:23,906 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:26:23,908 - tools.sandbox_manager - INFO - Cleaning up existing application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:26:23,909 - tools.sandbox_manager - INFO - Cleaned up application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:26:23,910 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-44306709
+2025-04-17 22:26:38,607 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:26:38,608 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:26:38,608 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:26:38,610 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:26:38,612 - tools.sandbox_manager - INFO - Cleaning up existing application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:26:38,613 - tools.sandbox_manager - INFO - Cleaned up application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:26:38,614 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-7ce7bf39
+2025-04-17 22:26:38,684 - core.agent - INFO - Set Git config user.name=GANON
+2025-04-17 22:26:38,760 - core.agent - INFO - Set Git config user.email=your.email@example.com
+2025-04-17 22:26:39,467 - core.agent - INFO - Successfully cloned https://github.com/cr-nattress/ai-devops-lab.git to C:\Users\NUC01\dev-agents\application-sandbox\sandbox-7ce7bf39
+2025-04-17 22:27:15,913 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:27:15,915 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:27:15,915 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:27:15,915 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:27:15,919 - tools.sandbox_manager - INFO - Cleaning up existing application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:27:15,926 - tools.sandbox_manager - INFO - Cleaned up application-sandbox directory at C:\Users\NUC01\dev-agents\application-sandbox
+2025-04-17 22:27:15,927 - tools.sandbox_manager - INFO - Created sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-167c703a
+2025-04-17 22:27:15,929 - tools.sandbox_manager - INFO - Cleaning up sandbox at C:\Users\NUC01\dev-agents\application-sandbox\sandbox-167c703a

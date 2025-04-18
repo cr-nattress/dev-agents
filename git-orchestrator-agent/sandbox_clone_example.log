@@ -1,0 +1,32 @@
+2025-04-17 22:07:02,229 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:07:02,229 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:07:02,229 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:07:02,230 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:07:37,642 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:07:37,645 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:07:37,645 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:07:37,646 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:08:23,588 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:08:23,589 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:08:23,590 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:08:23,590 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:09:13,920 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:09:13,921 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:09:13,921 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:09:13,923 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:09:40,583 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:09:40,584 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:09:40,584 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:09:40,585 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:10:01,427 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:10:01,429 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:10:01,429 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:10:01,430 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:12:04,476 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:12:04,477 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:12:04,477 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:12:04,478 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:13:29,356 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:13:29,357 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:13:29,358 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:13:29,358 - context.config_loader - INFO - Agent-specific .env file loaded successfully

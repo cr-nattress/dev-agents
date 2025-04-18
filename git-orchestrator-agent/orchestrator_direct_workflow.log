@@ -1,0 +1,18 @@
+2025-04-17 22:28:03,509 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:28:03,510 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:28:03,510 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:28:03,510 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:28:04,381 - __main__ - INFO - Running git command: git checkout -b feature/orchestrator-workflow-327a5a62 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222803_327a5a62
+2025-04-17 22:28:04,459 - __main__ - INFO - Running git command: git add . in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222803_327a5a62
+2025-04-17 22:28:04,539 - __main__ - INFO - Running git command: git commit -m Add test file via orchestrator workflow 327a5a62 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222803_327a5a62
+2025-04-17 22:28:04,696 - __main__ - INFO - Running git command: git rev-parse HEAD in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222803_327a5a62
+2025-04-17 22:28:04,760 - __main__ - INFO - Running git command: git push origin feature/orchestrator-workflow-327a5a62 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222803_327a5a62
+2025-04-17 22:28:37,018 - context.config_loader - INFO - Loading environment variables from central .env file: C:\Users\NUC01\dev-agents\.env
+2025-04-17 22:28:37,019 - context.config_loader - INFO - Central .env file loaded successfully
+2025-04-17 22:28:37,019 - context.config_loader - INFO - Loading environment variables from agent-specific .env file: C:\Users\NUC01\dev-agents\git-orchestrator-agent\.env
+2025-04-17 22:28:37,021 - context.config_loader - INFO - Agent-specific .env file loaded successfully
+2025-04-17 22:28:37,954 - __main__ - INFO - Running git command: git checkout -b feature/orchestrator-workflow-1b74e542 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222837_1b74e542
+2025-04-17 22:28:38,037 - __main__ - INFO - Running git command: git add . in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222837_1b74e542
+2025-04-17 22:28:38,110 - __main__ - INFO - Running git command: git commit -m Add test file via orchestrator workflow 1b74e542 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222837_1b74e542
+2025-04-17 22:28:38,289 - __main__ - INFO - Running git command: git rev-parse HEAD in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222837_1b74e542
+2025-04-17 22:28:38,367 - __main__ - INFO - Running git command: git push origin feature/orchestrator-workflow-1b74e542 in C:\Users\NUC01\dev-agents\application-sandbox\sandbox_20250417_222837_1b74e542
